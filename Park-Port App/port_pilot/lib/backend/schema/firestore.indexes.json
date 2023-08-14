@@ -1,0 +1,18 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "club_news",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "club_name",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "club_news_date",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ]
+}
