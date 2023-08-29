@@ -1,17 +1,4 @@
 
-/**
- * Created by K. Suwatchai (Mobizt)
- *
- * Email: k_suwatchai@hotmail.com
- *
- * Github: https://github.com/mobizt/Firebase-ESP-Client
- *
- * Copyright (c) 2023 mobizt
- *
- */
-
-// This example shows how to patch or update a document in a document collection. This operation required Email/password, custom or OAUth2.0 authentication.
-
 #include <Arduino.h>
 #if defined(ESP32) || defined(ARDUINO_RASPBERRY_PI_PICO_W)
 #include <WiFi.h>
@@ -26,14 +13,14 @@
 #include <addons/TokenHelper.h>
 
 /* 1. Define the WiFi credentials */
-#define WIFI_SSID "marcnetz"
-#define WIFI_PASSWORD "lasselinneakerstinmarc"
+#define WIFI_SSID ""
+#define WIFI_PASSWORD ""
 
 /* 2. Define the API Key */
-#define API_KEY "AIzaSyCvU7gOOGdpyvlfB3pZWSoApqxxMRvIi78"
+#define API_KEY ""
 
 /* 3. Define the project ID */
-#define FIREBASE_PROJECT_ID "park-pilot-e16f3"
+#define FIREBASE_PROJECT_ID ""
 
 
 // aa is the collection id, bb is the document id.
